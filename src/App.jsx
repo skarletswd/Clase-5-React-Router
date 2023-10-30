@@ -5,6 +5,7 @@ import NotFound from "./NotFound"
 import User from "./User"
 import ProductosList from "./ProductosList"
 import ProductosDetail from "./ProductosDetail"
+import ProdListDin from "./ProdListDin"
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
             <Route index element={<ProductosList />}/>
             <Route path=":id" element={<ProductosDetail />}/>
         </Route>
+
+        <Route path="/productos-din" Component={ProdListDin}/>
 
         <Route path="*" Component={NotFound}/>
         

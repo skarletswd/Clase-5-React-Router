@@ -13,6 +13,9 @@ function Nav() {
                 <li>
                     <Link to="/productos">Productos</Link>
                 </li>
+                <li>
+                    <Link to="/productos-din">ProdListDin</Link>
+                </li>
             </ul>
         </nav>
     )
